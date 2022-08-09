@@ -2,7 +2,6 @@ import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
 
 function Header(props) {
   return (
-    <>
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="/">React-Learning</Navbar.Brand>
@@ -19,7 +18,7 @@ function Header(props) {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+      
   );
 }
 
