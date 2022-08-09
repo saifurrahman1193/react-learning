@@ -6,9 +6,9 @@ function UseMemoExample1() {
     <Card>
       <Card.Header as="h5">useMemo hook Example 1</Card.Header>
       <Card.Body>
-        <Card.Title>useMemo</Card.Title>
+        <Card.Title>useMemo hook</Card.Title>
         <Card.Text>
-            
+          
         </Card.Text>
       </Card.Body>
     </Card>
