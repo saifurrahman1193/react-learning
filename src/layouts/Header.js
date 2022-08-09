@@ -11,7 +11,9 @@ function Header(props) {
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Hooks" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/hooks/useMemo">useMemo</NavDropdown.Item>
+                <NavDropdown title="useMemo" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/hooks/useMemo/example-1">Example 1</NavDropdown.Item>
+                </NavDropdown>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
