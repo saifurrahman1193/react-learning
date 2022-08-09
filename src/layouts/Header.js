@@ -1,23 +1,12 @@
-import React, {
-  Fragment,
-  useEffect,
-  useLayoutEffect,
-  useState
-} from "react";
-import {
-  Link
-  
-} from "react-router-dom";
+import React, { Fragment, useEffect, useLayoutEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-import {  Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-
+import { Navbar, Container, Nav, NavDropdown, Button } from "react-bootstrap";
 
 function Header(props) {
-
-
-
-  return ( 
+  return (
     <>
+      <Button>Hello</Button>
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -31,7 +20,9 @@ function Header(props) {
                 <NavDropdown.Item href="#action/3.2">
                   Another action
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">
                   Separated link
@@ -42,9 +33,7 @@ function Header(props) {
         </Container>
       </Navbar>
     </>
-  )
+  );
 }
 
-
-
-  export default Header;
+export default Header;
