@@ -9,13 +9,11 @@ import UseMemoExample1 from '../pages/hooks/useMemo/example_1/useMemo';
 function Router(props) {
 
     return (
-        <Fragment>
             <Routes>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/hooks/useMemo/example-1' component={UseMemoExample1} />
             </Routes>
-        </Fragment>
-           
+
     )
 }
 
