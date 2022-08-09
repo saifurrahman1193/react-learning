@@ -18,8 +18,6 @@ function Header(props) {
 
   return ( 
     <>
-        hello
-
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
