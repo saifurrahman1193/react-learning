@@ -3,7 +3,7 @@ import { HashRouter, Switch, Routes, Route, useLocation } from 'react-router-dom
 import Home from '../pages/Home';
 
 // Hooks
-import UseMemoExample1 from '../pages/hooks/useMemo/example_1/useMemo';
+import UseMemoExample1 from '../pages/hooks/useMemo/example_1';
 
 
 function Router(props) {
