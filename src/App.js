@@ -1,5 +1,5 @@
 import './App.css';
-import Router from './route/route'
+import Router from './route/router'
 import Header from './layouts/Header'
 import { HashRouter } from 'react-router-dom';
 import React from 'react';

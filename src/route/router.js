@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
-import { HashRouter, Switch, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Switch, Routes, Route, useLocation } from 'react-router-dom';
 
 
 import Header from '../layouts/Header';
@@ -10,7 +10,9 @@ function Router(props) {
 
     return (
         <Fragment>
-            <Route exact path='/' component={Home} />
+            <Routes>
+                <Route exact path='/' component={Home} />
+            </Routes>
         </Fragment>
            
     )
