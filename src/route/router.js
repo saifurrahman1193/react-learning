@@ -1,6 +1,7 @@
-import React, { Fragment, useEffect } from 'react';
-import { HashRouter, Switch, Routes, Route, useLocation } from 'react-router-dom';
+import React from 'react';
+import {  Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
+import NotFound from '../pages/NotFound';
 
 // Hooks
 import UseMemoExample1 from '../pages/hooks/useMemo/example_1';
@@ -9,8 +10,9 @@ function Router(props) {
 
     return (
             <Routes>
-                <Route exact path='/' element={<Home/>} />
-                <Route exact path='/hooks/useMemo/example-1' element={<UseMemoExample1/>} />
+                <Route path='/' element={<Home/>} />
+                <Route path='/hooks/useMemo/example-1' element={<UseMemoExample1/>} />
+                <Route path="*" element={<NotFound/>}/>
             </Routes>
     )
 }
