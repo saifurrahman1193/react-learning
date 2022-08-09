@@ -4,26 +4,7 @@ function Home(props) {
     
     return (
         <>
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
-            hello world
+            
             
         </>
     )

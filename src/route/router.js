@@ -10,8 +10,8 @@ function Router(props) {
 
     return (
             <Routes>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/hooks/useMemo/example-1' component={UseMemoExample1} />
+                <Route exact path='/' element={<Home/>} />
+                <Route exact path='/hooks/useMemo/example-1' element={<UseMemoExample1/>} />
             </Routes>
     )
 }

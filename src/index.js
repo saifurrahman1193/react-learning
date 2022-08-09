@@ -3,14 +3,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createRoot } from 'react-dom/client';
-import { HashRouter } from 'react-router-dom';
 const container = document.getElementById('root');
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 
 root.render(
-    <HashRouter>
-        <App />
-    </HashRouter>
+    <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
