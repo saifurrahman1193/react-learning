@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './layouts/header'
 import Router from './route/router'
-import Header from './layouts/Header'
 import { HashRouter } from 'react-router-dom';
 import React from 'react';
 
