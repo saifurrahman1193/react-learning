@@ -5,7 +5,6 @@ import Home from '../pages/Home';
 // Hooks
 import UseMemoExample1 from '../pages/hooks/useMemo/example_1';
 
-
 function Router(props) {
 
     return (
@@ -15,6 +14,5 @@ function Router(props) {
             </Routes>
     )
 }
-
 
 export default Router;
